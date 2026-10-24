@@ -1,0 +1,20 @@
+Expense Tracker — run on Windows
+================================
+
+You need two things installed first (once only):
+
+1. A JDK, version 21 (e.g. Microsoft Build of OpenJDK 21 or Temurin 21).
+   Check it works: open Command Prompt and run  java -version
+2. A JavaFX SDK, version 21, from https://openjfx.io
+   (Downloads page -> "JavaFX Windows SDK"). Unzip it anywhere, e.g.
+   C:\javafx-sdk-21  (so that C:\javafx-sdk-21\lib holds javafx.controls.jar).
+
+Then run the app:
+
+1. Copy this whole expense-tracker folder to your PC.
+2. Open run.bat in Notepad and set the JAVAFX line to your SDK lib folder,
+   e.g.  set JAVAFX=C:\javafx-sdk-21\lib
+3. Double-click run.bat (or run it from Command Prompt in this folder).
+
+Your data lives in expenses.csv, created in this same folder on first save.
+To move the app, copy the whole folder including expenses.csv.
